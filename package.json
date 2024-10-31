@@ -1,0 +1,31 @@
+{
+  "name": "profile-rebuild",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A personal profile rebuild project utilizing Vite, GSAP, and Locomotive Scroll for dynamic scrolling effects.",
+  "scripts": {
+    "start": "vite src --port 3000",
+    "dev": "vite src --port 3000",
+    "build": "vite build src",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "profile",
+    "vite",
+    "gsap",
+    "locomotive-scroll",
+    "frontend",
+    "web-development"
+  ],
+  "author": "Hemanth V.",
+  "devDependencies": {
+    "vite": "^5.2.9",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "gsap": "^3.7.0",
+    "locomotive-scroll": "^4.1.1"
+  }
+}
